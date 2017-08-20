@@ -1,0 +1,1 @@
+CONFIG="-n --file=/etc/pulse/arm_msm8992_kinzie.pa"
