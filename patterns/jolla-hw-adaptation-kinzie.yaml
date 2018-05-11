@@ -13,7 +13,7 @@ Requires:
 - droid-config-kinzie-policy-settings
 - droid-config-kinzie-preinit-plugin
 - droid-config-kinzie-flashing
-- droid-config-kinzie-bluez4
+- droid-config-kinzie-bluez5
 - droid-hal-version-kinzie
 
 # Hybris packages
@@ -75,7 +75,10 @@ Requires:
 
 # For GPS
 - geoclue-provider-hybris
+# For Mozilla location services (online)
+- geoclue-provider-mlsdb
 
+# Flashlight
 - jolla-settings-system-flashlight
 
 # For FM radio on some QCOM devices
